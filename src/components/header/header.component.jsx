@@ -16,6 +16,7 @@ import './header.styles.scss';
 
 const Header = ({ hidden }) => {
   const currentUser = useContext(CurrentUserContext);
+
   console.log("current user: ", currentUser);
   return (
       <div className='header'>
